@@ -18,7 +18,7 @@ are immediately aborted by the ~real~ mro().
 So I wrote the following for me and whoever else might have similar interests.
 
 Bonus:  I have similar comments about the volumes written about super(), until I realized
-that `super(obj)` used in a class just means that super will use the class.__mro__, like Bash uses $PATH,
+that `super(obj)` used in a class just means that super will use the class.\__mro\__, like Bash uses $PATH,
 to simply find and return the first instance of the obj it finds in the MRO.
 Easy peazy.
 
