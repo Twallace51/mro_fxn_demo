@@ -1,6 +1,7 @@
 #! /bin/python
 
-"""This script can be run as-is as a visual demo of the c3-linearization algorithm used in mro(),  it is not an emulation.
+"""This script can be run as-is as a visual demo of the c3-linearization algorithm used in mro(),  
+It is not an emulation of mro(),  since it orders a list of lists of strings,  rather than lists of objects.
 
 Based on:
    Implements Python Method Resolution Order(MRO)
